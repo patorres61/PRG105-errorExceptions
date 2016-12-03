@@ -18,7 +18,7 @@ convertInput = 0
 try:
     with open(fileIn, 'r') as f:
         file_content = f.read()
-        print "Reding file: " + fileIn
+        print "Reading file: " + fileIn
     if not file_content:
         print "There is no data in file: " + fileIn
 except IOError as e:
